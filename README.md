@@ -7,10 +7,13 @@
 	https://www.lagomframework.com/
 
 #### **What the code does ?**
-Sample code downloads  bulk weather data from [http://bulk.openweathermap.org/sample/]( http://bulk.openweathermap.org/sample/) and updates local casandra db which can be used to provide weather details offline.
+Sample code downloads  bulk weather data from [http://bulk.openweathermap.org/sample/]( http://bulk.openweathermap.org/sample/) and updates local cassandra db which can be used to provide weather details offline.
 
-It uses and AKKA and KAFKA which provides high scalablity.
+It uses  AKKA and KAFKA which provides high scalability.High level of parallelism provides faster completion of process.
 
+It processes 10 MB of weather data in fraction of seconds.
+
+![Data processing](/screenshot/int.PNG)
 
 #### Getting Started
 
